@@ -1,13 +1,13 @@
-package me.eax.rabbitmq_example.pubsub
+package me.eax.examples.rabbitmq.pubsub
 
 import akka.actor._
-import com.rabbitmq.client.{Channel, ConnectionFactory, QueueingConsumer}
+import com.rabbitmq.client._
 import org.json4s._
 import org.json4s.jackson.JsonMethods._
 
 import scala.collection.mutable
-import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
+import scala.concurrent.ExecutionContext.Implicits.global
 
 class BroadcastPubSubClientActor(
     host: String = "localhost",

@@ -1,9 +1,11 @@
-package me.eax.rabbitmq_example
+package me.eax.examples.rabbitmq
+
+import me.eax.examples.rabbitmq.pubsub._
 
 import akka.actor._
-import me.eax.rabbitmq_example.pubsub._
-import scala.compat._
+
 import scala.util._
+import scala.compat._
 import scala.concurrent.duration._
 import scala.concurrent.ExecutionContext.Implicits.global
 

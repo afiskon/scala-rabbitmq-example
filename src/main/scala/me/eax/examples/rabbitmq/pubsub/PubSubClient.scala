@@ -1,4 +1,4 @@
-package me.eax.rabbitmq_example.pubsub
+package me.eax.examples.rabbitmq.pubsub
 
 import akka.actor.ActorRef
 

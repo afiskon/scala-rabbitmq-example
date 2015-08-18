@@ -1,7 +1,8 @@
-package me.eax.rabbitmq_example
+package me.eax.examples.rabbitmq
 
 import akka.actor.SupervisorStrategy.Restart
 import akka.actor._
+
 import scala.concurrent.duration._
 
 class TopSupervisionStrategy extends SupervisorStrategyConfigurator {

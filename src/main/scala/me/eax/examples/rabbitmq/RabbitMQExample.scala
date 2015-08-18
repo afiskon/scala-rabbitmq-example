@@ -1,8 +1,9 @@
-package me.eax.rabbitmq_example
+package me.eax.examples.rabbitmq
 
 import akka.actor._
-import me.eax.rabbitmq_example.pubsub._
-import scala.util._
+import me.eax.examples.rabbitmq.pubsub._
+
+import scala.util.Random
 
 object RabbitMQExample extends App {
   val host = "10.110.0.10"
